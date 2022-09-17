@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One:ital@1&family=Lato&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    height: 600vh;
+    width: fit-content;
+   
+    background-color:  white;
+}
+.font{
+    animation: htag 3s infinite normal;
+font-family: 'Lato', sans-serif;
+display: flex;
+font-size: x-large;
+float: left;
+height: 533px;
+justify-content: center;
+align-items: center;
+
+}
+.camera{
+    width: 611px;
+    height: 100px;
+    display: flex;
+    float: right;
+    height: 533px;
+    justify-content: center;
+    align-items: center;
+}
+.first-h1{
+    padding-left: 20vw;
+    padding-top: 4vh;
+}
+.first-nav{
+    background-color: rgb(49, 33, 33);
+    margin-top: 533px;
+    height: 97px
+    
+
+   
+}
+
+.a,.b,.c,.d,.e,.f {
+    width: 100%;
+  height: 950px;
+}
+.footer{
+    font-size: xx-large;
+    cursor: pointer;
+    padding-left: 26vw;
+    padding-top: 3vh
+}
+h2{
+    font-size: x-large;
+}
+.footer1{
+ 
+    /* align-items: center; */
+    padding-left: 26vw;
+    padding-top: 3vh
+    
+    
+}
+
+@keyframes  htag{
+    form{
+        margin-left: 0%;
+        
+
+    }
+    to{
+        margin-left:0%;
+        overflow: hidden;
+        
+    }
+}
+.font i{
+    color: aqua;
+    animation: iset 1s infinite;
+}
+@keyframes iset{
+    form{
+        color: brown;
+    }
+    to{
+        color: chartreuse;
+    }
+}
